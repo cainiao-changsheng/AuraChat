@@ -1,0 +1,47 @@
+name: aurachat
+description: A virtual character chat app with Live2D animation support.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  # State management
+  provider: ^6.1.1
+  # HTTP client for LLM API
+  http: ^1.2.0
+  dio: ^5.4.0
+  # Local vector database for memory
+  chromadb: ^0.1.0
+  # JSON serialization
+  json_annotation: ^4.8.1
+  # Local storage
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  path_provider: ^2.1.2
+  # UI enhancements
+  cached_network_image: ^3.3.1
+  flutter_animate: ^4.5.0
+  lottie: ^3.0.0
+  # Image handling
+  image_picker: ^1.0.7
+  # Markdown rendering
+  flutter_markdown: ^0.6.22
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/live2d/

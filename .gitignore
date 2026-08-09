@@ -1,0 +1,14 @@
+*.lock
+**/android/
+**/ios/
+**/build/
+**/.dart_tool/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Runner/Assets.xcassets/
+**/ios/Runner/Base.lproj/
+**/.idea/
+**/.vscode/
+*.iml
