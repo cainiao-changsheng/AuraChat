@@ -1,6 +1,4 @@
 *.lock
-**/android/
-**/ios/
 **/build/
 **/.dart_tool/
 **/ios/Flutter/.last_build_id
@@ -12,3 +10,8 @@
 **/.idea/
 **/.vscode/
 *.iml
+android/local.properties
+android/.gradle/
+android/app/build/
+android/.idea/
+android/*.iml
