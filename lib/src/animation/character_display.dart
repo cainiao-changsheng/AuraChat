@@ -43,7 +43,7 @@ class _CharacterDisplayState extends State<CharacterDisplay>
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
           colors: [
-            Theme.of(context).colorScheme.primaryContainer.withValues(alpha: 0.3),
+            Theme.of(context).colorScheme.primaryContainer.withOpacity(0.3),
             Theme.of(context).colorScheme.surface,
           ],
         ),
@@ -67,7 +67,7 @@ class _CharacterDisplayState extends State<CharacterDisplay>
             ),
             boxShadow: [
               BoxShadow(
-                color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.2),
+                color: Theme.of(context).colorScheme.primary.withOpacity(0.2),
                 blurRadius: 20,
                 spreadRadius: 4,
               ),
